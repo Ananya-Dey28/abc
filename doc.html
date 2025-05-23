@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Simple Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 15px 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #444;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 40px;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Website</h1>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home" class="container">
+    <h2>Home</h2>
+    <p>This is a simple homepage made with HTML and CSS.</p>
+  </section>
+
+  <section id="about" class="container">
+    <h2>About</h2>
+    <p>This website is a basic example for learning HTML structure.</p>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contact</h2>
+    <p>You can contact me at <a href="mailto:example@example.com">example@example.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Website. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
