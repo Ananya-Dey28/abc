@@ -2,7 +2,7 @@ name: CML Report Workflow
 
 on:
   push:
-    branches: [main]
+    branches: [master]
   pull_request:
 
 jobs:
@@ -49,4 +49,3 @@ jobs:
         REPO_TOKEN: ${{ secrets.CI_PIPELINE }}
       run: |
         npx cml comment create report.md
-        
